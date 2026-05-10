@@ -14,7 +14,7 @@ print("Type 'exit' to quit\n")
 while True:
     question = input("You: ")
 
-    if question.lower() == "exit":
+    if question.strip().lower() == "exit":
         break
 
     try:  
